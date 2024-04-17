@@ -6,8 +6,8 @@ authors = ["Gabriel Soler <gsoler@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-coltrane = "^0.33.0"
+python = "^3.11"
+coltrane = {version = "^0.33.0", extras = ["deploy"]}
 
 
 [build-system]

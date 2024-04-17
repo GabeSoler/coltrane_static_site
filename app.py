@@ -8,7 +8,7 @@ from coltrane import initialize
 
 
 
-wsgi = initialize(ALLOWED_HOSTS = ['0.0.0.0'])
+wsgi = initialize(ALLOWED_HOSTS = ['0.0.0.0'], DEBUG=False)
 
 if __name__ == "__main__":
     execute_from_command_line()
