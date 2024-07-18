@@ -1,6 +1,6 @@
 ---
 title: Index
-template: coltrane/list.html
+template: coltrane/index.html
 publish_date: 2024-04-16 19:26:02
 ---
 {{toc}}
