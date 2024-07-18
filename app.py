@@ -11,7 +11,7 @@ from coltrane import initialize
 wsgi = initialize(ALLOWED_HOSTS = ['0.0.0.0',
                                    'https://morning-river-89959-5d7f1cb92b6d.herokuapp.com/'
                                    ], 
-                                   DEBUG=False)
+                                   DEBUG=True)
 
 if __name__ == "__main__":
     execute_from_command_line()
