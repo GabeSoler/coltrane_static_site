@@ -9,3 +9,12 @@ bind = "0.0.0.0:80"
 workers = multiprocessing.cpu_count() * 2 + 1
 
 workers = 2
+
+
+def when_ready(server):
+    # touch app-initialized when ready
+    open("/tmp/app-initialized", "w").close()
+
+
+bind = "unix:///tmp/nginx.socket"
+workers = 3
