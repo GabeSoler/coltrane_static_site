@@ -3,10 +3,21 @@
 
     <title>{{title}}</title>
 
-                <!-- bootstrap watch https://bootswatch.com/sandstone/-->
+                <!-- bootstrap watch https://bootswatch.com/-->
 
-    <link rel="stylesheet" href={% static 'bootstrap.css' %}> 
+    <link rel="stylesheet" href={% static 'css/bootstrap.min(solar).css' %}> 
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=GabrielSoler" rel="stylesheet">
 
+    {% load static %}
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon_io/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon_io/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon_io//favicon-16x16.png' %}">
+    <link rel="manifest" href="/site.webmanifest">    
 
 
 </head>
@@ -15,8 +26,8 @@
 
     <nav class='navbar navbar-expand-md navbar-dark bg-dark mb-4 boder' data-bs-theme="dark">
     <div class='container-fluid'>
-        <a class='navbar-brand' href="index.html">
-            Gabriel Soler Psychotherapist </a>
+        <a class='navbar-brand text-primary' style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="index.html">
+            Gabriel Soler <span class='text-light' style='font-family:verdana,san-serif;'>Psychotherapist</span> </a>
 
         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
         data-bs-target='#navbarCollapse' aria-controls='navbarCollapse'
