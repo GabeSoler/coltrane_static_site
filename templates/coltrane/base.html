@@ -6,7 +6,8 @@
                 <!-- bootstrap watch https://bootswatch.com/-->
 
     <link rel="stylesheet" href={% static 'css/bootstrap.min(solar).css' %}> 
-    
+    <link rel="stylesheet" href={% static 'css/style.css' %}> 
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,17 +17,17 @@
     <!--favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon_io/apple-touch-icon.png' %}">
     <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon_io/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon_io//favicon-16x16.png' %}">
-    <link rel="manifest" href="/site.webmanifest">    
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon_io/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'favicon_io/site.webmanifest' %}">    
 
 
-</head>
+</head> <!-- end of head-->
 
 <body class='bg-light'>
-
-    <nav class='navbar navbar-expand-md navbar-dark bg-dark mb-4 boder' data-bs-theme="dark">
+                        <!--Navbar starts-->
+    <nav class='navbar navbar-expand-md navbar-dark bg-dark boder' data-bs-theme="dark">
     <div class='container-fluid'>
-        <a class='navbar-brand text-primary' style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="index.html">
+        <a class='navbar-brand text-primary' style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/">
             Gabriel Soler <span class='text-light' style='font-family:verdana,san-serif;'>Psychotherapist</span> </a>
 
         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
@@ -39,13 +40,13 @@
         <div class='collapse navbar-collapse' id='navbarCollapse'>
             <ul class='navbar-nav me-auto mb2 mb-md-0'> <!-- 'me' refers to left, and 'ms' to right -->
                 <li class='nav-item'>
-                    <a class='nav-link' href="/about/index.html">
+                    <a class='nav-link' href="/articles.html/">
                         Articles </a></li>                
                 <li class='nav-item'>
                     <a class='nav-link' href="/about/index.html">
                                 About</a></li>
                 <li class='nav-item'>
-                    <a class='nav-link' href="/about/index.html">
+                    <a class='nav-link' href="/about/contact.html">
                                 Contact</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
@@ -63,8 +64,8 @@
 
 <!-- Main section -->
 
-<main class='container'>
-
+<main>
+{% block body %}
     {% block content %}
 
     <div>
@@ -72,7 +73,7 @@
     </div>
     {% endblock content %}      
 
-    
+{% endblock body %}
 </main>
 <footer></footer>
 

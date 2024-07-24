@@ -1,18 +1,8 @@
 ---
-title: Migration
+title: Contact
 description: Understanding your culture conflicts
 template: coltrane/content.html
 publish_date: 2024-04-16 19:26:02
 ---
 
-# Gabriel Soler
-A bit about my life
-
-That is great
-
-haha
-
-|hola|hola|
-|bla|bla|
-
-![hey]
+email: gsoler@protonmail.com

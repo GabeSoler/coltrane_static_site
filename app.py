@@ -16,7 +16,8 @@ else:
 
 
 wsgi = initialize(
-    ALLOWED_HOSTS=ALLOWED_HOSTS
+    ALLOWED_HOSTS=ALLOWED_HOSTS,
+
                                    )
 
 if __name__ == "__main__":

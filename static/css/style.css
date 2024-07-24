@@ -1,0 +1,10 @@
+.bg-card {
+    background-image: var(--bs-gradient);
+    background-color: lighter(primary);
+
+}
+
+.bg-card:hover {
+    background-image: var(--bs-gradient);
+
+}
