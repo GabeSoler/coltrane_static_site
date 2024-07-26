@@ -1,5 +1,5 @@
 {% extends 'coltrane/hero.html' %}
-
+{% load static %}
 {% block content%}
 
 
@@ -7,15 +7,30 @@
 
 {% directory_contents 'areas' as areas %}
 
+<div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
 {% for area in areas %}
-<div class="card col-10 mx-auto mb-2 shadow rounded text-dark bg-card">
-  <div class="card-body bg-primary bg-card">
-      <p> <a href="{{area.slug}}">{{area.title}}</a></p>
-      <p>{{area.description}}</p>
+<div class="clard-container col-lg-6 float-start" id="{{area.title}}">
+  <div class="text-bg-dark me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
+        href="{{area.slug}}">{{area.title|title}}</a></h2>
+      <p class="lead">{{area.description}}</p>
+    </div>
+    <div id='picture-areas' class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <img 
+    class='card-image object-fit-cover rounded shadow' 
+    src="{% static area.image %}"
+    style="max-width:100%;
+    display:center;
+    border-radius:5%;
+    "
+    >
+    </div>
   </div>
 </div>
 
 {% endfor %}
+</div>
 
 {% endblock content %}
  
