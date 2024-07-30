@@ -1,12 +1,10 @@
 {% extends 'coltrane/hero.html' %}
 {% load static %}
 
-{% block body%}
-
 
 {% block content%}
 {{content}}
-{% directory_contents 'areas' as areas %}
+{% directory_contents  'areas' order_by='slug' as areas %}
 
 <div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
 {% for area in areas %}
@@ -36,19 +34,22 @@
 
 {% endblock content %}
 
-
+{% block action %}
 <div class="bg-light mt-3 pb-2">
   <div class="card mb-3 mx-auto bg-white-green col-10">
     <div class="row g-0">
-      <div class="container-fluid col-4 mx-auto mt-2 mb-2"     style-"max-height:7%;"    >
+
+      <div id='last_image' class="container col-4 mx-auto mt-2 mb-2"   
+         >
         <img class="card-img-top rounded" src="{% static image2 %}" 
         alt="{title}"
         /> 
       </div>
   
-      <div class="col-md-8">
+      <div class="col-md-8 col-10">
         <div class="card-body">
-          <h5 class="card-title fs-1 text-dark">{{salutation}}</h5>
+          <h5 class="card-title fs-1 text-dark">
+            {{salutation}}</h5>
           <p class="card-text fs-4">
           {{action}}</p>
           <a
@@ -65,5 +66,6 @@
       </div>
     </div>
   </div>
+</div>
 
-{% endblock body %}
+{% endblock action %}

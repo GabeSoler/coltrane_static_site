@@ -2,10 +2,10 @@
 {% load static %}
 
 
-{% block body%}
+{% block hero%}
 
 <div class="cover-container d-flex w-100 h-100 mx-auto flex-column mb-2"
-    style="background-image:url({% static 'images/gsoler.jpg' %});
+    style="background-image:url({% static image %});
     background-position:center;
     background-size:cover;
     ">
@@ -22,8 +22,9 @@
     </footer>
   </div>
 
-    {% block content%}
-    {% endblock content%}
-
+    {% endblock hero%}
+{% block content%}
     
-{%endblock body%}
+{%endblock content %}
+
+
