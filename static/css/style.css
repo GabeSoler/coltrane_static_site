@@ -8,3 +8,11 @@
     background-image: var(--bs-gradient);
 
 }
+
+.bg-white-green {
+    background-color: rgb(243, 245, 246);
+}
+
+.bg-gray-green {
+    background-color: rgb(149, 183, 200);
+}
