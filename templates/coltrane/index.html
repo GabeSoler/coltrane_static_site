@@ -5,9 +5,7 @@
 
 
 {% block content%}
-
 {{content}}
-
 {% directory_contents 'areas' as areas %}
 
 <div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
@@ -35,37 +33,37 @@
 {% endfor %}
 </div>
 
+
 {% endblock content %}
 
 
-<div class="bg-light mt-5 pb-5">
-<div class="card mb-3 mx-auto bg-white-green col-10">
-  <div class="row g-0">
-    <div class="container-fluid col-4 mx-auto mt-2 mb-2"     style-"max-height:7%;"    >
-      <img class="card-img-top rounded" src="{% static image %}" 
-      alt="{title}"
-      /> 
-    </div>
-
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title fs-1 text-dark">Hey!</h5>
-        <p class="card-text fs-4">
-        Contact me for a free consultation!</p>
-        <a
-        href="about/contact/"
-        class="badge bg-dark ms-2 mx-auto mt-4 mb-3 fs-3"
-        >Email Me!</a
-      >
-        <p class="card-text mt-3">
-          <small class="text-muted"
-            >{{publish_date}}</small
-          >
-        </p>
+<div class="bg-light mt-3 pb-2">
+  <div class="card mb-3 mx-auto bg-white-green col-10">
+    <div class="row g-0">
+      <div class="container-fluid col-4 mx-auto mt-2 mb-2"     style-"max-height:7%;"    >
+        <img class="card-img-top rounded" src="{% static image2 %}" 
+        alt="{title}"
+        /> 
+      </div>
+  
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title fs-1 text-dark">{{salutation}}</h5>
+          <p class="card-text fs-4">
+          {{action}}</p>
+          <a
+          href="about/contact/"
+          class="badge bg-dark ms-2 mx-auto mt-4 mb-3 fs-3"
+          >{{button}}</a
+        >
+          <p class="card-text mt-3">
+            <small class="text-muted"
+              >{{publish_date}}</small
+            >
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
 
 {% endblock body %}
