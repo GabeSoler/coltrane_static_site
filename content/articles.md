@@ -9,6 +9,6 @@ publish_date: 2024-07-24 19:26:02
 
 {% for article in articles %}
 
-{{article.title}}
+[{{article.title}}](/{{article.slug}}/)
 
 {% endfor %}
