@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Gabriel Soler
 image: images/gsoler.jpg
 image2: images/guitar.jpg
 template: coltrane/index.html

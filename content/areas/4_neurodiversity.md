@@ -1,5 +1,5 @@
 ---
-title: Neurodivergency
+title: Neurodiversity
 description: Toys, objects, theories to make it fun
 image: images/stones.jpg
 template: coltrane/content.html

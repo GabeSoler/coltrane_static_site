@@ -2,11 +2,12 @@
 {% load static %}
 
 {% block wrapper%}
-<div class="card col-11 col-lg-8 mx-auto my-3 bg-white-green ">
-    <h4 class="card-header display-3 bg-gray-green text-dark">{{title|title}}</h4>
+
+
+<h4 class="card-header display-3 bg-gray-green text-dark">{{title|title}}</h4>
 
     {% if image %}
-    <div class="container-fluid col-4 mx-auto mt-2"     style-"max-height:10%;"    >
+    <div class="container-fluid col-4 mx-auto mt-2"     style-"max-height:10%;">
     <img class="card-img-top rounded" src="{% static image %}" 
     alt="{title}"
     /> </div>

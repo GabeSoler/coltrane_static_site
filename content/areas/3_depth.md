@@ -1,5 +1,5 @@
 ---
-title: Intelectual Deepth
+title: Intelectual Depth
 description: Working with philosophy, psychotherapy and science
 image: images/books.jpg
 template: coltrane/content.html
