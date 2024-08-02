@@ -1,6 +1,6 @@
 import multiprocessing
 
-max_requests = 100
+max_requests = 1000
 max_requests_jitter = 50
 
 log_file = "-"
@@ -8,7 +8,7 @@ log_file = "-"
 bind = "0.0.0.0:80"
 workers = multiprocessing.cpu_count() * 2 + 1
 
-workers = 1
+workers = 2
 
 
 def when_ready(server):
@@ -17,4 +17,4 @@ def when_ready(server):
 
 
 bind = "unix:///tmp/nginx.socket"
-workers = 1
+workers = 3
