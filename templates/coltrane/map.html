@@ -1,0 +1,20 @@
+{% extends 'coltrane/group_nav.html' %}
+
+{% block action %}
+
+<gmp-map
+  center="55.958138180949206, -3.187017229685137"
+  zoom="4"
+  map-id="GS_MAP_ID"
+  style="height: 400px"
+>
+  <gmp-advanced-marker
+    position="55.958138180949206, -3.187017229685137"
+    title="My practice"
+  ></gmp-advanced-marker>
+
+
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeSazakgtF_5vYAML4OubiNUxVdB2hJhU&loading=async&libraries=maps,marker&v=beta" defer>
+</script>
+{% endblock action%}

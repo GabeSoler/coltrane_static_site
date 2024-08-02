@@ -6,8 +6,7 @@ template: coltrane/group_nav.html
 publish_date: 2024-07-30 19:26:02
 ---
 
-{{publish_date|naturalday}}
-
+## A bit about me
 Hi, this section is to talk a little about myself. You can also explore other related content up in the navegation panel. 
 
 Lets start with a bit of background. I was born and raised in Chile, having at the same time Spanish and Italian nationality. I grew up being  a shy and intelectual kid, who loved books and was doing well at school. I also practiced many things as I was growing up, like the flute, painting, playing basketball, writing, etc. 
@@ -52,3 +51,5 @@ Latelly I had the crazy idea of learning to code. This one has been far the most
 I hope you have liked this little narration about me. Please keep explring this site and its sibling. 
 
 Gabriel
+
+{{publish_date|naturalday}}

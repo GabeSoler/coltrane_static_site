@@ -35,20 +35,15 @@
 {% endblock content %}
 
 {% block action %}
-<div class="bg-light mt-3 pb-2">
-  <div class="card mb-3 mx-auto bg-white-green col-10">
-    <div class="row g-0">
-
-      <div id='last_image' class="container col-4 mx-auto mt-2 mb-2"   
-         >
-        <img class="card-img-top rounded" src="{% static image2 %}" 
-        alt="{title}"
-        /> 
-      </div>
+  <div class="card mb-3 mx-auto bg-white-green shadow col-10 " 
+  style="background-image:url({% static image2 %});
+  background-position: top;
+  opacity:100%;
   
-      <div class="col-md-8 col-10">
+  ">  
+      <div class="col-md-12 col-12">
         <div class="card-body">
-          <h5 class="card-title fs-1 text-dark">
+          <h5 class="card-title display-3 text-dark d-block col-12">
             {{salutation}}</h5>
           <p class="card-text fs-4">
           {{action}}</p>
@@ -57,15 +52,14 @@
           class="badge bg-dark ms-2 mx-auto mt-4 mb-3 fs-3"
           >{{button}}</a
         >
-          <p class="card-text mt-3">
-            <small class="text-muted"
-              >{{publish_date}}</small
-            >
-          </p>
-        </div>
+
       </div>
-    </div>
   </div>
 </div>
 
+<p class="card-text mt-3">
+  <small class="text-muted"
+    >{{publish_date}}</small
+  >
+</p>
 {% endblock action %}

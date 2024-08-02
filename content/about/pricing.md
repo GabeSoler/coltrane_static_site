@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: pricing
 order: 3
 description: My current price
 template: coltrane/group_nav.html

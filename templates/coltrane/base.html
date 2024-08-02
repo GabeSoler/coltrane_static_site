@@ -10,7 +10,7 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=GabrielSoler" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=DrGabrielSoler" rel="stylesheet">
 
     {% load static %}
     <!--favicons-->
@@ -24,10 +24,10 @@
 
 <body class='bg-light'>
                         <!--Navbar starts-->
-    <nav class='navbar navbar-expand-sm navbar-dark bg-dark boder' data-bs-theme="dark" id='navbar'>
+    <nav class='navbar navbar-expand-sm navbar-dark bg-dark boder position-sticky' data-bs-theme="dark" id='navbar'>
     <div class='container-fluid'>
         <a class='navbar-brand text-primary' style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            Gabriel Soler <span class='text-light' style='font-family:verdana,san-serif;'>Psychotherapist</span> </a>
+            Dr Gabriel Soler <span class='text-light' style='font-family:verdana,san-serif;'>Psychotherapist</span> </a>
 
         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
         data-bs-target='#navbarCollapse' aria-controls='navbarCollapse'
@@ -38,12 +38,12 @@
         <!-- collapsable part of the Navegation Bar -->
         <div class='collapse navbar-collapse' id='navbarCollapse'>
             <ul class='navbar-nav me-auto mb2 mb-md-0'> <!-- 'me' refers to left, and 'ms' to right -->
+              <li class='nav-item'>
+                  <a class='nav-link' href="/about/me.html">
+                              About</a></li>
                 <li class='nav-item'>
                     <a class='nav-link' href="/articles.html/">
                         Articles </a></li>                
-                <li class='nav-item'>
-                    <a class='nav-link' href="/about/index.html">
-                                About</a></li>
                 <li class='nav-item'>
                     <a class='nav-link' href="/about/contact.html">
                                 Contact</a></li>
@@ -78,7 +78,7 @@
 
 </main>
 
-        <nav class="navbar navbar-expand-sm bg-secondary position-sticky bottom-0">
+        <nav class="navbar navbar-expand-sm bg-secondary bottom-0">
             <div class="container-fluid">
               <a class="navbar-brand pb-2" href="/">Home</a>
 

@@ -12,11 +12,11 @@
 {% for link in links %}
     <li class="nav-item">
       <a class="nav-link
-      {% if request == link.slug %}
+      {% if parent in link.slug %}
         active
        {% endif %} 
       "
-      {% if request == link.slug %}
+      {% if parent in link.slug %}
       aria-current="page"
       {% endif %}
       href="/{{link.slug}}/">{{link.title|title}}</a>
@@ -51,4 +51,6 @@
 {% endblock wrapper %}
 
 {% block action %}
+
+
 {% endblock action%}
