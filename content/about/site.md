@@ -2,7 +2,7 @@
 title: Stie
 order: 5
 description: About the site
-template: coltrane/content.html
+template: coltrane/group_nav.html
 publish_date: 2024-04-16 19:26:02
 ---
 

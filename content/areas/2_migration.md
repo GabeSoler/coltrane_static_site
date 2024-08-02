@@ -1,6 +1,7 @@
 ---
 title: Migration
 description: Understanding your culture conflicts
+order: 2
 image: images/stairs.jpg
 template: coltrane/content.html
 publish_date: 2024-04-16 19:26:02

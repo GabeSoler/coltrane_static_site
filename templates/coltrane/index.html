@@ -4,7 +4,7 @@
 
 {% block content%}
 {{content}}
-{% directory_contents  'areas' order_by='slug' as areas %}
+{% directory_contents  'areas' order_by='order' as areas %}
 
 <div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
 {% for area in areas %}

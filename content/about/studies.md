@@ -2,7 +2,7 @@
 title: Studies
 order: 2
 description: About my studies
-template: coltrane/content.html
+template: coltrane/group_nav.html
 publish_date: 2024-08-02 19:26:02
 ---
 
