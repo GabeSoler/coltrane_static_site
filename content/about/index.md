@@ -1,11 +1,12 @@
 ---
-title: About Me
+title: About
+order: 1
 description: A bit about myself
-template: coltrane/content.html
+template: coltrane/about_nav.html
 publish_date: 2024-07-30 19:26:02
 ---
 
-{{now}}
+{{publish_date|naturalday}}
 
 Hi, this section is to talk a little about myself. I was born and raised in Chile, having at the same time Spanish and Italian nationality. I grew up being  a shy and intelectual kid, who loved books and was doing well at school. I also practiced many things as I was growing up, like the flute, painting, playing basketball, writing, etc. 
 

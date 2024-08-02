@@ -1,0 +1,49 @@
+{% extends 'coltrane/base.html' %}
+{% load static %}
+{% comment %} This one adds a nav on the top of about {% endcomment %}
+
+{% block intro %}
+
+{% directory_contents  'about' order_by='order' as links %}
+
+{% for link in links %}
+
+<ul class="nav nav-tabs col-8">
+    <li class="nav-item">
+      <a class="nav-link
+      {% if forloop.first %}
+        active
+       {% endif %} 
+      "
+      {% if forloop.first %}
+      aria-current="page"
+      {% endif %}
+      href="/{{link.slug}}/">{{link.title|title}}</a>
+    </li>
+      {% endfor %}
+      </ul>
+
+    {% endblock intro %}
+
+{% block wrapper %}
+<h4 class="card-header display-3 bg-gray-green text-dark">{{title|title}}</h4>
+
+    {% if image %}
+    <div class="container-fluid col-4 mx-auto mt-2"     style-"max-height:10%;">
+    <img class="card-img-top rounded" src="{% static image %}" 
+    alt="{title}"
+    /> </div>
+    {% endif%}
+    <div class="card-body col-10 mx-auto">
+
+{% block content%}
+<div class="container ">
+{{content}}    
+</div>
+
+{% endblock content %}
+
+{% endblock wrapper %}
+
+{% block action %}
+{% endblock action%}

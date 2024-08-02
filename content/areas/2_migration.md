@@ -7,7 +7,7 @@ publish_date: 2024-04-16 19:26:02
 ---
 Some topics arrive to you as you become one of the people suffering it. 
 
-I left my home country in 2016 and the expeirence of being a migran has been amazing, has opened my mind, and my horizons, but also has been difficult and  the same opening sometimes feels like a lot. 
+I left my home country in 2016 and the expeirence of being a migran has been amazing, has opened my mind, and my horizons, but also has been difficult and  the same opening sometimes felt like a lot. 
 
 I feel that being away from your culture and becoming part of a new one, make us notice little things that others seem to pass by. We become aware of so many little differences, from non-verbal comunication, rituals,  politics, group dynamics.
 

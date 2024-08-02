@@ -1,8 +1,15 @@
 {% extends 'coltrane/base.html' %}
 {% load static %}
 
+
+{% block intro %}
+
+{% endblock intro %}
+
+
 {% block wrapper%}
 
+<div class="card">
 
 <h4 class="card-header display-3 bg-gray-green text-dark">{{title|title}}</h4>
 
@@ -19,7 +26,13 @@
 </div>
 
 {% endblock content %}
+
+</div>
+
 {% endblock wrapper %}
+
+{% block action %}
+{% endblock action%}
 
 </div>
 </div>
