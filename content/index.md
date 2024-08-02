@@ -1,6 +1,6 @@
 ---
 title: Gabriel Soler
-image: images/gsoler.jpg
+image: images/hero.jpg
 image2: images/guitar.jpg
 template: coltrane/index.html
 salutation: Hey!
