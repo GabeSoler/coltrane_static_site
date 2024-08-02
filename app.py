@@ -17,7 +17,6 @@ else:
 
 wsgi = initialize(
     ALLOWED_HOSTS=ALLOWED_HOSTS,
-    COLTRANE_SITE_URL='https://gs-coltrane.vercel.app/',
     TIME_ZONE = 'Europe/London',
 
                                    )
