@@ -3,7 +3,7 @@ title: Neurodiversity
 description: Toys, objects, theories to make it fun
 order: 4
 image: images/stones.jpg
-template: coltrane/content.html
+template: coltrane/group_nav.html
 publish_date: 2024-04-16 19:26:02
 ---
 Neurodiversity has become a new buzzword, and here I would like to keep it quite open. More than trying to go into the anxiety of 'do I have this or that thing' I prefer to say that my practice is open to many ways of making sense and living the world. 

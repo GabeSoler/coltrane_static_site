@@ -15,8 +15,8 @@ publish_date: 2024-08-02 19:26:02
 ### Certificates and diplomas:
 - Diploma in Integrative Psychotherapy (Chilean Institute for Integrative Psychotehrapy)
 - Certificate in Child and Adolescent Psychotherapy (Chilean Institue for Integrative Psychotherapy)
-- Certificate in Online and Telephone Psychotherapy (Counselling Tutor)
-- Edinburgh Teachin Awards (University of Edinburgh Acreditation for Higher Education)
+- Certificate in Online and Telephone Counselling (Counselling Tutor)
+- Edinburgh Teaching Awards (University of Edinburgh, Acreditation for Higher Education)
   
 ### Professional Bodies recognitions
 - British Association for Counselling and Psychotherapy (Registered Member)

@@ -3,7 +3,7 @@ title: Intelectual Depth
 description: Working with philosophy, psychotherapy and science
 order: 3
 image: images/books.jpg
-template: coltrane/content.html
+template: coltrane/group_nav.html
 publish_date: 2024-04-16 19:26:02
 ---
 This is a strange title, but it points to one thing I feel characterises my practice, and that it is not that common in all my colleagues: I like to reflect and think, and bring philosohpical ideas into session.

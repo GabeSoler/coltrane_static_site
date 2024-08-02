@@ -12,11 +12,11 @@
 {% for link in links %}
     <li class="nav-item">
       <a class="nav-link
-      {% if last_path == link.slug %}
+      {% if request == link.slug %}
         active
        {% endif %} 
       "
-      {% if forloop.first %}
+      {% if request == link.slug %}
       aria-current="page"
       {% endif %}
       href="/{{link.slug}}/">{{link.title|title}}</a>
