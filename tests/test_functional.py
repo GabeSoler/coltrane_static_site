@@ -8,6 +8,7 @@ import unittest
 
 
 class HomePageTest(unittest.TestCase):
+    """testing the front page is working and with all its parts"""
     def setUp(self):
         self.driver = webdriver.Chrome()  # Optional argument, if not specified will search path.
         #self.driver.get('https://morning-river-89959-5d7f1cb92b6d.herokuapp.com/#it-will-be-nice-to-do-a-static-site')
@@ -33,6 +34,18 @@ class HomePageTest(unittest.TestCase):
         link = self.driver.find_element(By.LINK_TEXT, 'Intelectual Depth')
         self.assertEqual(link.text,'Intelectual Depth')
         time.sleep(2)
+
+    def test_areas(self):
+        #user explores the site and goes to all the areas of work
+        #first explores creativity and reads
+        #then explores migration and reads
+        #then explores neurodvi 
+        #then explores depth
+        pass
+
+    def test_about(self):
+        
+        pass
 
     def tearDown(self):
         self.driver.close()
