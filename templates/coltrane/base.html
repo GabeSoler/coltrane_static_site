@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
 
     <title>{{title}}</title>
 
                 <!-- bootstrap watch https://bootswatch.com/-->
-    <link rel="stylesheet" href={% static 'css/bootstrap.min(solar).css' %}> 
-    <link rel="stylesheet" href={% static 'css/style.css' %}> 
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min(solar).css %}"> 
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,43 +15,43 @@
 
     {% load static %}
     <!--favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
-    <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">    
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static "favicon/apple-touch-icon.png" %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static "favicon/favicon-32x32.png" %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static "favicon/favicon-16x16.png" %}">
+    <link rel="manifest" href="{% static "favicon/site.webmanifest" %}">    
 
 
 </head> <!-- end of head-->
 
-<body class='bg-light'>
+<body class="bg-light">
                         <!--Navbar starts-->
-    <nav class='navbar navbar-expand-sm navbar-dark bg-dark boder position-sticky' data-bs-theme="dark" id='navbar'>
-    <div class='container-fluid'>
-        <a class='navbar-brand text-primary' style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            Dr Gabriel Soler <span class='text-light' style='font-family:verdana,san-serif;'>Psychotherapist</span> </a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark boder position-sticky" data-bs-theme="dark" id="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand text-primary" style="font-family:"Edu AU VIC WA NT Hand",verdana,san-serif;" href="/" id="nav-title">
+            Dr Gabriel Soler <span class="text-light" style="font-family:verdana,san-serif;">Psychotherapist</span> </a>
 
-        <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
-        data-bs-target='#navbarCollapse' aria-controls='navbarCollapse'
-        aria-expanded='false' aria-label='Toggle navigation'>
-        <span class='navbar-toggler-icon'></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
         
         <!-- collapsable part of the Navegation Bar -->
-        <div class='collapse navbar-collapse' id='navbarCollapse'>
-            <ul class='navbar-nav me-auto mb2 mb-md-0'> <!-- 'me' refers to left, and 'ms' to right -->
-              <li class='nav-item'>
-                  <a class='nav-link' href="/about/me/">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
+              <li class="nav-item">
+                  <a class="nav-link" href="/about/me/">
                               About</a></li>
-                <li class='nav-item'>
-                    <a class='nav-link' href="/articles/">
+                <li class="nav-item">
+                    <a class="nav-link" href="/articles/">
                         Articles </a></li>                
-                <li class='nav-item'>
-                    <a class='nav-link' href="/about/contact/">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/contact/">
                                 Contact</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
-            <ul class='navbar-nav ms-auto mb-2 mb-md-0'>
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
 
             </ul> 
 
@@ -83,10 +83,10 @@
             <div class="container-fluid">
               <a class="navbar-brand pb-2" href="/">Home</a>
 
-              <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
-              data-bs-target='#navbarCollapseBottom' aria-controls='navbarCollapseBottom'
-              aria-expanded='false' aria-label='Toggle navigation'>
-              <span class='navbar-toggler-icon'>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
               </span>
               </button>
 
