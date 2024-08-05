@@ -1,10 +1,10 @@
-{% extends 'coltrane/hero.html' %}
+{% extends "coltrane/hero.html" %}
 {% load static %}
 
 
 {% block content%}
 {{content}}
-{% directory_contents  'areas' order_by='order' as areas %}
+{% directory_contents  "areas" order_by="order" as areas %}
 
 <div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
   
@@ -16,9 +16,9 @@
         href="{{area.slug}}">{{area.title|title}}</a></h2>
       <p class="lead">{{area.description}}</p>
     </div>
-    <div id='picture-areas' class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <div id="picture-{{area.title}}" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
     <img 
-    class='card-image object-fit-cover rounded shadow' 
+    class="card-image object-fit-cover rounded shadow" 
     src="{% static area.image %}"
     style="max-width:100%;
     display:center;
