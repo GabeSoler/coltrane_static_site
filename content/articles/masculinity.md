@@ -14,7 +14,7 @@ I think we are living in a time of big cultural changes, where our definitions o
 
 More than once I have wondered if the pronoun 'he' defines me, as I feel the constrains of these words sometimes make me feel reduced to a small definition.
 
-The paper I wrote with another to scholars reflects in how our cultural definition of masculinity has lead to man have more mental and phisical health problems. The lack of emotional and relational intelligence tends to lock men into an isolated spaces to deal with emotional conflicts. 
+The paper I wrote with another to scholars reflects in how our cultural definition of masculinity has lead to man have more mental and physical health problems. The lack of emotional and relational intelligence tends to lock men into an isolated spaces to deal with emotional conflicts. 
 
 We explored some literature that has been showing these sad correlations, but more importantly we wrote about our dads, and their suffering. We reflected through poems on the legacy of those old models of masculinity and how they keep impacting our identity, in the memories of our upbringing. 
 

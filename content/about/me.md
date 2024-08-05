@@ -7,13 +7,13 @@ publish_date: 2024-07-30 19:26:02
 ---
 
 ## A bit about me
-Hi, this section is to talk a little about myself. You can also explore other related content up in the navegation panel. 
+Hi, this section is to talk a little about myself. You can also explore other related content up in the navigation panel. 
 
-Lets start with a bit of background. I was born and raised in Chile, having at the same time Spanish and Italian nationality. I grew up being  a shy and intelectual kid, who loved books and was doing well at school. I also practiced many things as I was growing up, like the flute, painting, playing basketball, writing, etc. 
+Lets start with a bit of background. I was born and raised in Chile, having at the same time Spanish and Italian nationality. I grew up being  a shy and intellectual kid, who loved books and was doing well at school. I also practiced many things as I was growing up, like the flute, painting, playing basketball, writing, etc. 
 
 I always loved arts and creativity, the feeling of being in the flow, solving things in inspiration and feeling that the world is only existing in that moment.
 
-When I was making my decition about what to study I chose psychology because it had many things I liked, and I liked way too many things. The ones that I appreciated where:
+When I was making my decision about what to study I chose psychology because it had many things I liked, and I liked way too many things. The ones that I appreciated where:
 - It had humanities and sciences,
 - It was related to working closely with people
 - It could answer many philosophical questions,
