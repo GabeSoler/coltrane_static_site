@@ -18,6 +18,7 @@ else:
 wsgi = initialize(
     ALLOWED_HOSTS=ALLOWED_HOSTS,
     TIME_ZONE = 'Europe/London',
+    CACHE = 'memory',
 
                                    )
 
