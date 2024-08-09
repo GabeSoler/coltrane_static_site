@@ -1,11 +1,4 @@
 //for the cards in the index to have a nice entry
-// const pre_items = document.querySelectorAll('.card-container')
-
-// function add_appear() {
-//     pre_items.target.classList.add('appear')
-
-// }
-// document.onload = add_appear()
 
 const items = document.querySelectorAll('.appear')
 
