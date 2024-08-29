@@ -2,32 +2,36 @@
 title: mindfulness
 template: coltrane/group_nav.html
 
-publish_date: 2024-08-05 19:26:02
+publish_date: 2024-08-12 19:26:02
 ---
 # Mindfulness: a creative approach
 
-Writing about mindfulness has been a rewarding work, as it helps  me to organize ideas about my own meditation and how to use it with my clients. 
+When I was a teenager, I loved reading about mysticism and mystical authors. As I studied psychology, my studies became more structured around comparative religion research, transpersonal psychology, and neuroimaging techniques. This allowed me to develop a more grounded view of mysticism, altered states of consciousness, and their effects on mental health.
 
-Over the years I have learnt that understanding the little differences of emphasis of the practice can help us to guide therapeutic processes better, making the focus of attention match the problems our clients are bringing.
+I have practised different types of meditation throughout my life, which has led me to take a position closer to the current cognitive behavioural way of using mindfulness (most of the time), with some sprinkles of mysticism when I see it will benefit my client. 
 
-I work with the idea that a well attuned mindfulness practice, tailor made for a client, makes it interesting and rewarding. 
+ Researching the benefits and applications of mindfulness in current evidence-based psychotherapy helps me organise ideas about my meditation and how to use it in my practice. 
 
-I have also mixed a few practices together, which allows me to move between a more traditional mindfulness, towards a focusing emotional processing, to a body awareness, to an active imagination. 
+Over the years, I have learnt that understanding the subtle emphasis in practice can help us better guide therapeutic processes, making the focus of attention match the problems our clients are bringing.
 
-Every one of these options are coming from different therapeutic traditions, but it is easy to blend them in the same meditation practice, allowing us to intuitively move with whatever is coming up in the moment. 
+I work with the idea that a well-attuned mindfulness practice, tailor-made for clients, makes it interesting and rewarding and can be merged with the current process and needs of the therapeutic work. 
 
-I find mindfulness useful in multiple areas of work: cognitive rumination, embodied trauma, unconscious processing and emotional awareness.
+I have also mixed other related therapeutic practices, allowing me to move from more cognitive mindfulness (CBT exploration) towards focusing on emotional processing (Gendlin process model) to body awareness (embodied therapies) to an active imagination (Jungian meditation). 
 
-I see mindfulness as a creative space, and I feel that working with it in that way makes it more interesting and approachable. 
+Even though each option comes from different therapeutic traditions, blending them into the same meditation practice is easy. This allows us to move intuitively with what emerges in the moment for my clients. 
 
-Mindfulness has its roots in spiritual practices, aiming for deep transformations in the subjects. This means that many of this practices have the potential to alter your consciousness and sometimes trigger difficult experiences. 
+I find mindfulness useful in multiple areas, including cognitive rumination, embodied trauma, unconscious processing, and emotional awareness.
 
-I always work with the awareness that Mindfulness has great power, but that means great risk too. Sometimes we go into dissociation, into strange body feelings, or into dream-like spaces. Some people may get more triggered with the practice because there is some underlying trauma, and the silence and focus on the body made them feel too vulnerable. Some may try it and feel it boring, or meaningless, because it was introduced as a repetitive and submissive practice. 
+I see mindfulness as a creative space, and the more I modify techniques to align with my values, the more exciting and approachable it becomes. 
 
-For these reasons I believe that making mindfulness a tailored experience, making it fit what clients are looking for and needing, and explaining well the possible risk, so you do not keep going in that direction when it happens, makes it a safe practice.
+Mindfulness has its roots in spiritual practices that aim for deep transformations. Many of these practices have the potential to alter consciousness and sometimes trigger difficult experiences. 
+
+I always work with the awareness that Mindfulness has great power, but that means great risk, too. Sometimes, we go into dissociation, strange body feelings, or threatening dream-like spaces. Some people may get more triggered by the practice because there is some underlying trauma, and the silence and focus on the body make them feel too vulnerable. Some may try mindfulness and feel it boring or meaningless because it was introduced as a repetitive and submissive practice. 
+
+For these reasons, making mindfulness a tailored experience, fitting it to what clients seek and need, and explaining the possible risks well so you do not keep going in that direction when it happens make it a safe practice.
 
 
-The two publications I have are in spanish:
+The two publications I have are in Spanish:
 
 - [Mindfulness en el contexto de la Psicoterapia Integrativa](https://www.researchgate.net/publication/373101607_PSICOTERAPIA_INTEGRATIVA_EIS_Y_MINDFULNESS)
 - [Enfoque Integrativo EIS y Mindfulness](https://www.researchgate.net/publication/280445904_Mindfulness_En_El_Contexto_De_La_Psicoterapia_Integrativa)

@@ -7,21 +7,21 @@ publish_date: 2024-08-05 19:26:02
 ---
 # About Human Development
 
-My curiosity for development got sparked by reading Ken Wilber, an author who was crossing oriental spirituality and developmental psychology. After I read him I felt I needed to really understand what development meant and how it impacted my life and other's. 
+My curiosity about development was sparked by reading Ken Wilber, an author who combines oriental spirituality with developmental psychology. After I read him, I felt I needed to really understand what development meant and how it impacted my life and others. 
 
-I wrote my master's dissertation as a review of the main literature on the topic, crossing the fundational authors and the further development of the theories. Since then I wrote a few papers on how to use developmental theories in the  clinical practice (in Spanish).
+I wrote my master's dissertation as a review of the primary literature on the topic, crossing the foundational authors and the further development of the theories. Since then, I have written several papers on using developmental theories in clinical practice (in Spanish).
 
-Since then the topic has becomeo part of my practice embedded in what I do. 
+Since then, the topic has become part of my practice and is embedded in what I do. 
 
-I feel passionate about recognising the developmental forces at play in my work, which sometimes take us to review the past, to open the forces towards the future. I find my work less heavy by having a notino of development in the darkens, as I understand that every time that we go to the shadows and do good work, more space is created to develop new areas of ourselve and grow stronger. 
+I feel passionate about recognising the developmental forces at play in my work, which sometimes takes us to review the past in a way that opens new avenues towards the future. I find my work less heavy by having a notion of development in the background, as I understand that every time we go to the shadows and do good work, more space is created to develop new areas of ourselves and grow stronger. 
 
-I keep using some of Wilber's ideas in my work, crossing some spiritual aspects to development and therapy, but I have lernt to be more grounded and to see spirituality as something wonderful, misterious, and also something to be careful with. I prefer to work on creating strong foundations before thinking on opening to experiences that may create unestability (more in Mindfulness).
+I keep using some of Wilber's ideas in my work, crossing some spiritual aspects to development and therapy, but I have learnt to be more grounded and to see spirituality as something wonderful and mysterious but also something to be careful with. For this reason, I prefer to work on creating solid foundations before considering opening to experiences that may create instability (more about this in Mindfulness).
 
-Development is a delicate process, that contains many lines that sometimes take turn to be in the front. This means that it is not a lienar process, even if there are some linear steps. 
+Development is a delicate process containing many lines that sometimes take turns being in the front. This means it is not a linear process, even if there are some linear steps. 
 
-I also see another way of understanding change, that I call Becoming. Different to development that focuss on steps of complexity, becoming is about allowing yourself move with the ties, and to connect with people or the world. Becoming is more fluid and take us to unthought places. 
+I also see another way of understanding change, which I call Becoming. Unlike development, which focuses on steps of complexity, becoming is about allowing yourself to move with the ties and connect with people and the world. Becoming is more fluid and takes us to unthought places. 
 
-I like to see any process as a dance between those two, becoming something new, becoming-with others, and slowly reaching new  abstractions and complexities. 
+I like to see any process as a dance between those two, becoming something new, becoming with others, and slowly reaching new abstractions and complexities. This makes growth more playful, and our deep reflections become grounded in rich experiences.
 
 Some of my work on the topic:
 
