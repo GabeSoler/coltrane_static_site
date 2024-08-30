@@ -36,27 +36,9 @@
 {% endblock content %}
 
 {% block action %}
-  <div class="card m-3 mt-4 mb-4 mx-auto bg-white-green shadow col-10 appear" 
-  style="background-image:url({% static image2 %});
-  background-position: top;
-  opacity:100%;
-  "
-  id="action-card"
-  >  
-      <div class="col-md-12 col-12">
-        <div class="card-body">
-          <h5 class="card-title display-3 text-dark d-block col-12">
-            {{salutation}}</h5>
-          <p class="card-text fs-4">
-          {{action}}</p>
-          <a
-          href="about/contact/"
-          class="badge bg-dark ms-2 mx-auto mt-4 mb-3 fs-3"
-          >{{button}}</a
-        >
 
-      </div>
-  </div>
+<div class="alert alert-primary display-5 mx-3 mt-3" role="alert">
+  Free first contact session. <a class="alert-link" href="/about/contact/">Contact</a>
 </div>
 
 <script src="{% static 'js/index-cards.js' %}"></script>
