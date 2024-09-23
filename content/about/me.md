@@ -7,9 +7,7 @@ publish_date: 2024-08-28 19:26:02
 ---
 
 ## A bit about me
-Hi, this section is for me to introduce myself. You can also explore other related content in the navigation panel. 
-
-Let's start with a bit of background. I was born and raised in Chile and am of Spanish and Italian nationality. I grew up being a shy and intellectual kid who loved books and did well at school. I also practised many things growing up, like playing the flute, painting, basketball, writing, etc. 
+I was born and raised in Chile and am of Spanish and Italian nationality. I was a shy and intellectual kid who loved books and did well at school. I also practised many things, like playing the flute, painting, basketball, writing, etc. 
 
 I have always loved the arts and creative expression, the feeling of being in the flow, solving things with inspiration, and the sense that the world exists only in that moment.
 
