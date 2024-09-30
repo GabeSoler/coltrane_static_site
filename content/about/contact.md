@@ -10,4 +10,4 @@ Hi, my office is in Forth St, Edinburgh, EH1 3LH.
 
 You can reach me at this email:
 
-[gsoler@protonmail.com](mailto:gsoler@protonmail.com)
+[gsoler@protonmail.com](mailto:gabriel@crea-therapy.com)
