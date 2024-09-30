@@ -9,16 +9,6 @@ publish_date: 2024-07-24 19:26:02
 
 Here you can find some reflections I wrote for this site, and also references to other works that are in different journals and books. 
 
-### Areas of work:
-
-{% directory_contents 'areas' order_by='order' as areas %}
-
-{% for area in areas %}
-
-- [{{area.title|title}}](/{{area.slug}}/)
-
-{% endfor %}
-
 ### Reflections about my published work
 
 {% directory_contents 'articles' order_by='order' as articles %}
@@ -28,3 +18,5 @@ Here you can find some reflections I wrote for this site, and also references to
 - [{{article.title|title}}](/{{article.slug}}/)
 
 {% endfor %}
+
+

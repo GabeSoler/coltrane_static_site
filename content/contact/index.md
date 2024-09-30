@@ -12,6 +12,8 @@ You can reach me at this email:
 
 [gabriel@crea-therapy.com](mailto:gabriel@crea-therapy.com)
 
+## Google Maps:
+
 <div class="ratio ratio-4x3">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.5004335011386!2d-3.189656523065696!3d55.95803007316077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78c688b3d63%3A0x1be6dacd15698236!2s20%20Forth%20St%2C%20Edinburgh%20EH1%203LH!5e0!3m2!1sen!2suk!4v1727708323460!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

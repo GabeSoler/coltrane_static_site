@@ -1,0 +1,12 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      {% for address in url_list %}
+      {% if forloop.last %}
+      <li class="breadcrumb-item text-primary">{{address|last_url}}</li>
+      {% else %}
+      <li class="breadcrumb-item"><a href="{{address}}">{{address|last_url}}</a></li>
+      {% endif %}  
+      {% endfor %}
+    </ol>
+  </nav>
