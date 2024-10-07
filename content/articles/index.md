@@ -1,7 +1,7 @@
 ---
 title: Articles
 description: To direct to articles
-template: coltrane/content.html
+template: coltrane/group_nav.html
 publish_date: 2024-07-24 19:26:02
 ---
 

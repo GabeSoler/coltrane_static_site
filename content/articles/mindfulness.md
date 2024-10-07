@@ -33,8 +33,9 @@ For these reasons, making mindfulness a tailored experience, fitting it to what 
 
 The two publications I have are in Spanish:
 
-- [Mindfulness en el contexto de la Psicoterapia Integrativa](https://www.researchgate.net/publication/373101607_PSICOTERAPIA_INTEGRATIVA_EIS_Y_MINDFULNESS)
-- [Enfoque Integrativo EIS y Mindfulness](https://www.researchgate.net/publication/280445904_Mindfulness_En_El_Contexto_De_La_Psicoterapia_Integrativa)
+> - [Mindfulness en el contexto de la Psicoterapia Integrativa](https://www.researchgate.net/publication/373101607_PSICOTERAPIA_INTEGRATIVA_EIS_Y_MINDFULNESS)
+
+> - [Enfoque Integrativo EIS y Mindfulness](https://www.researchgate.net/publication/280445904_Mindfulness_En_El_Contexto_De_La_Psicoterapia_Integrativa)
 
 
 {{publish_date|naturalday}}

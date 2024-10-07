@@ -45,3 +45,12 @@ transform: translateY(20px);
     transition-delay: 0.20s;
 
 }
+
+blockquote {
+    background-color:  rgb(168, 206, 225);
+    border: 0.2em;
+    border-color: rgb(37, 44, 44);
+    border-left: 0.5rem;
+    padding:0.5rem;
+    margin-left: 1%;
+}
