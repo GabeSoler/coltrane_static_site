@@ -85,32 +85,37 @@
 
         <nav class="navbar navbar-expand-md bg-secondary bottom-0">
             <div class="container-fluid">
-              <a class="navbar-brand pb-2" href="/">Home</a>
-
-              <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+              
+              {% comment %} <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
-              </span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarCollapseBottom">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/contact/">Contact</a>
+                </span>
+                </button> {% endcomment %}
+                
+                <!-- <div class="collapse navbar-collapse" id="navbarCollapseBottom"> -->
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link fw-bold" {% if slug == "/" %} aria-current="page" {% endif %} href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about/site/">Site</a>
+                    <a class="nav-link" id="scrol-to-view" {% if slug == "/contact/" %} aria-current="page" {% endif %} href="/contact/">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="scroll-to-view" href="/about/pricing/">Pricing</a>
+                    <a class="nav-link" {% if slug == "/about/site/" %} aria-current="page" {% endif %} href="/about/site/">Site</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="scroll-to-view" {% if slug == "/about/pricing/" %} aria-current="page" {% endif %} href="/about/pricing/">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" rel="me" href="https://mastodonapp.uk/@gsoler">Mastodon</a>
                   </li>
                 </ul>
                 <span class="navbar-text">
                   By Gabriel Soler
                 </span>
               </div>
-            </div>
+           <!-- </div> -->
           </nav>
 
 </footer>
