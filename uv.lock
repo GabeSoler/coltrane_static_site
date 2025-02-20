@@ -145,7 +145,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "asgiref", specifier = ">=3.8.1" },
+    { name = "asgiref", specifier = ">=3.7.2" },
     { name = "coltrane", specifier = "<=1" },
 ]
 

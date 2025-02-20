@@ -2,7 +2,7 @@
 name = "gs_therapy"
 version = '0.1'
 dependencies = [
-    "asgiref>=3.8.1",
+    "asgiref>=3.7.2",
     "coltrane <= 1",
 ]
 
