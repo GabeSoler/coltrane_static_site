@@ -1,3 +1,8 @@
+@view-transition {
+    navigation: auto;
+  }
+
+
 .bg-card {
     background-image: var(--bs-gradient);
     background-color: lighter(primary);
