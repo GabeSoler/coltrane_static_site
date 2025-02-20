@@ -1,15 +1,11 @@
-[tool.poetry]
-name = "Gabriel Soler"
-version = "0.1.0"
-description = ""
-authors = ["Gabriel Soler <gsoler@gmail.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-coltrane = {version = "^0.33.0", extras = ["deploy"]}
-
+[project]
+name = "gs_therapy"
+version = '0.1'
+dependencies = [
+    "asgiref>=3.8.1",
+    "coltrane <= 1",
+]
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
