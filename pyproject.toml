@@ -1,9 +1,12 @@
 [project]
 name = "gs_therapy"
 version = '0.1'
+requires-python = ">=3.12"
+description = "App to create my professional site"
+
 dependencies = [
     "asgiref>=3.7.2",
-    "coltrane <= 1",
+    "coltrane <= 0.37.0",
 ]
 
 [build-system]

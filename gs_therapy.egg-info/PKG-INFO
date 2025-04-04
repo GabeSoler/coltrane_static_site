@@ -1,5 +1,7 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.4
 Name: gs_therapy
 Version: 0.1
+Summary: App to create my professional site
+Requires-Python: >=3.12
 Requires-Dist: asgiref>=3.7.2
-Requires-Dist: coltrane<=1
+Requires-Dist: coltrane<=0.37.0

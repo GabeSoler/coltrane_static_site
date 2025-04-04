@@ -1,8 +1,12 @@
-{% extends "coltrane/hero.html" %}
+{% extends "coltrane/base.html" %}
+
 {% load static %}
 
 
 {% block content%}
+
+{% include "coltrane/hero.html" %}
+
 {{content}}
 {% directory_contents  "areas" order_by="order" as areas %}
 
@@ -43,6 +47,6 @@
 </div>
 
 
-<script src="{% static 'js/index-cards.js' %}"></script>
+<script src="/static/js/index_cards.js"></script>
 
 {% endblock action %}

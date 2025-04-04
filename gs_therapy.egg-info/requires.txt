@@ -1,2 +1,2 @@
 asgiref>=3.7.2
-coltrane<=1
+coltrane<=0.37.0

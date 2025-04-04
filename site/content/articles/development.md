@@ -13,13 +13,13 @@ I wrote my master's dissertation as a review of the primary literature on the to
 
 Since then, the topic has become part of my practice and is embedded in what I do. 
 
-I feel passionate about recognising the developmental forces at play in my work, which sometimes takes us to review the past in a way that opens new avenues towards the future. I find my work less heavy by having a notion of development in the background, as I understand that every time we go to the shadows and do good work, more space is created to develop new areas of ourselves and grow stronger. 
+I feel passionate about recognising the developmental forces at play in my work, which sometimes takes us to review the past in a way that opens new avenues towards the future. I find my work less heavy by having a notion of development in the background, as I understand that every time we go to the shadows and do good work, more space is created to develop new areas of ourselves and grow stronger.
 
 I keep using some of Wilber's ideas in my work, crossing some spiritual aspects to development and therapy, but I have learnt to be more grounded and to see spirituality as something wonderful and mysterious but also something to be careful with. For this reason, I prefer to work on creating solid foundations before considering opening to experiences that may create instability (more about this in Mindfulness).
 
-Development is a delicate process containing many lines that sometimes take turns being in the front. This means it is not a linear process, even if there are some linear steps. 
+Development is a delicate process containing many lines that sometimes take turns being in the front. This means it is not a linear process, even if there are some linear steps.
 
-I also see another way of understanding change, which I call Becoming. Unlike development, which focuses on steps of complexity, becoming is about allowing yourself to move with the ties and connect with people and the world. Becoming is more fluid and takes us to unthought places. 
+I also see another way of understanding change, which I call Becoming. Unlike development, which focuses on steps of complexity, becoming is about allowing yourself to move with the ties and connect with people and the world. Becoming is more fluid and takes us to unthought places.
 
 I like to see any process as a dance between those two, becoming something new, becoming with others, and slowly reaching new abstractions and complexities. This makes growth more playful, and our deep reflections become grounded in rich experiences.
 

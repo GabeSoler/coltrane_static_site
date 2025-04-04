@@ -8,15 +8,15 @@ publish_date: 2024-08-5 19:26:02
 ---
 
 ## What is CreaTherapy?
-CreaTherapy is a project I am developing that aims to be a template to create your style and theoretical approach as a psychotherapist. The name explicitly takes away the word 'psycho' because I think limiting our profession to the mind does not represent today's field. 
+CreaTherapy is a project I am developing that aims to be a template to create your style and theoretical approach as a psychotherapist. The name explicitly takes away the word 'psycho' because I think limiting our profession to the mind does not represent today's field.
 
-CreaTherapy is a new way of understanding psychotherapy. In the history of psychotherapy, many changes and branches have emerged. This proliferation has been seen as a problem for many and has caused many battles inside the profession. 
+CreaTherapy is a new way of understanding psychotherapy. In the history of psychotherapy, many changes and branches have emerged. This proliferation has been seen as a problem for many and has caused many battles inside the profession.
 
-One solution I tried for years is called 'integration', and there are variations like 'eclectisism' and 'pluralism'. I feel those models are going somewhere, but that is far from what I see daily and talk about with my colleagues. 
+One solution I tried for years is called 'integration', and there are variations like 'eclectisism' and 'pluralism'. I feel those models are going somewhere, but that is far from what I see daily and talk about with my colleagues.
 
-Most of us feel part of a tradition, as trained in it. We also read, take courses, and watch videos about other traditions. In our culture, information flies fast, and old traditions do not have the time to catch up with all we are learning. 
+Most of us feel part of a tradition, as trained in it. We also read, take courses, and watch videos about other traditions. In our culture, information flies fast, and old traditions do not have the time to catch up with all we are learning.
 
-With CreaTherapy, I face the challenge in a new way: instead of trying to contain the proliferation and interbreeding of approaches, can we move forward to systems that allow and encourage individual discovery and development? This means we promote the creation of personal projects, methods, techniques, approaches, and styles. 
+With CreaTherapy, I face the challenge in a new way: instead of trying to contain the proliferation and interbreeding of approaches, can we move forward to systems that allow and encourage individual discovery and development? This means we promote the creation of personal projects, methods, techniques, approaches, and styles.
 
 Of course, this generates new problems; for instance, we need some basic knowledge to avoid messing things up. So, I am working on a framework that organises some of the main therapeutic areas of expertise and directs their learning. It also helps therapists track their learning of an area so we can have a notion of progress without being rigid about the tradition from where it is coming.
 
