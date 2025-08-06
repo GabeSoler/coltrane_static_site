@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{title}}</title>
 
-                <!-- bootstrap watch https://bootswatch.com/-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/solar/bootstrap.min.css">
+                <!-- bootstrap made my me tranquil style-->
+    <link rel="stylesheet" href="static/css/bootstrap.min(tranquil).css">
+    <link rel="stylesheet" href="static/css/bss-overrides.css">
+
     <link rel="stylesheet" href="/static/css/style.css">
     <!-- bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer ></script>
@@ -37,10 +39,10 @@
 
 <body class="bg-dark" hx-boost="true">
                         <!--Navbar starts-->
-    <nav class="navbar navbar-expand-md text-light bg-body bg-gradient py-3">
+    <nav class="navbar navbar-expand-md text-light bg-dark py-3">
     <div class="container-fluid">
         <a class="navbar-brand text-primary" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            Dr Gabriel Soler <span class="text-light" style="font-family:verdana,san-serif;">Psychotherapist</span> </a>
+            Dr Gabriel Soler <span class="text-success" style="font-family:verdana,san-serif;">Psychotherapist</span> </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -89,23 +91,23 @@
 {% endblock action%}
 
 </main>
-    <footer class="text-center bg-body" data-bs-theme="dark" style="width: 100%;">
+    <footer class="text-center" style="width: 100%;background-color:rgb(33,37,41);">
         <div class="container-fluid py-4 py-lg-5" style="width: 100%;margin: 0px;display: block;">
             <section class="py-4 py-xl-5" style="height: 221px;">
-                <div class="container" style="border-color: var(--bs-danger-text-emphasis);">
-                    <div class="text-dark bg-light border rounded border-0 border-light d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5" style="background: linear-gradient(157deg, black 0%, var(--bs-body-bg) 0%, var(--bs-primary) 12%, rgb(193,162,68) 37%, var(--bs-blue) 83%, var(--bs-secondary-bg) 100%), var(--bs-red);height: 130px;border-color: rgba(255,255,255,0.15);">
+                <div class="container">
+                    <div class="text-dark bg-primary border rounded border-0 border-light d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5">
                         <div class="pb-2 pb-lg-1">
-                            <h2 class="fw-bold mb-2">Interested in a free first session?</h2>
+                            <h2 class="fw-bold mb-2 text-secondary">Interested in a free first session?</h2>
                             <p class="mb-0"></p>
                         </div>
-                        <div class="my-2"><a class="btn btn-primary fs-5 px-4 py-2" role="button" href="#" style="background: var(--bs-gray-dark);">Book</a></div>
+                        <div class="my-2"><a class="btn btn-info fs-5 px-4 py-2" role="button" href="/contact/">Book</a></div>
                     </div>
                 </div>
             </section>
             <ul class="list-inline" style="padding: 2px;padding-right: 4px;">
-                <li class="list-inline-item me-4"><a class="link-body-emphasis" href="/contact/">Contact</a></li>
-                <li class="list-inline-item"><a class="link-body-emphasis" href="https://crea-therapy.com" style="margin-right: 1rem;">CreaTherapy</a></li>
-                <li class="list-inline-item"><a class="link-body-emphasis" href="https://gabesoler.github.io">GitHub</a></li>
+                <li class="list-inline-item me-4"><a class="link-light" href="/contact/">Contact</a></li>
+                <li class="list-inline-item"><a class="link-light" href="https://crea-therapy.com" style="margin-right: 1rem;">CreaTherapy</a></li>
+                <li class="list-inline-item"><a class="link-light" href="https://gabesoler.github.io">GitHub</a></li>
             </ul>
             <p class="text-body mb-0">Copyright © 2025 Gabriel Soler</p>
         </div>
