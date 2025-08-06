@@ -10,43 +10,54 @@
 {{content}}
 {% directory_contents  "areas" order_by="order" as areas %}
 
-<div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
-  
-{% for area in areas %}
-<div class="card-container col-lg-6 float-start appear" id="{{area.title}}">
-  <div class="text-bg-dark me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
-        href="{{area.slug}}">{{area.title|title}}</a></h2>
-      <p class="lead">{{area.description}}</p>
-    </div>
-    <div id="picture-{{area.title}}" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-    <img 
-    class="card-image object-fit-cover rounded shadow" 
-    src="{% static area.image %}"
-    style="max-width:100%;
-    display:center;
-    border-radius:5%;
-    "
-    >
-    </div>
-  </div>
-</div>
+    <div class="container-fluid py-4 py-xl-5" style="background: linear-gradient(162deg, black, var(--bs-danger-text-emphasis) 98%), var(--bs-danger-text-emphasis);margin: 0px;">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2 class="display-3 text-light">Areas</h2>
+                <p>With years of practice and academic research</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2">
 
-{% endfor %}
-</div>
+            {% for area in areas %}
+
+            <div class="col" id="{{area.title}}">
+                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;" src="{% static area.image %}" id="picture-{{area.title}}">
+                    <div class="py-4">
+                        <h4 class="display-5"><a class="link-light link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover"
+                            href="{{area.slug}}">{{area.title|title}}</a></h4>
+                        <p class="lead">{{area.description}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+        <div class="container-fluid py-4 py-xl-5" style="display: block;background: linear-gradient(151deg, black, var(--bs-blue) 99%, white), var(--bs-primary);width: 100%;">
+        <div class="row gy-4 gy-md-0">
+            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                <div style="max-width: 350px;">
+                    <h2 class="fw-bold">Dr Gabriel&nbsp;</h2>
+                    <p class="my-3">Gabriel holds a PhD in Counselling Studies from the University of Edinburgh. With a long carrer in psychotherapy, he has worked as a Clinical Psychologies in Chile, and in the UK is a member of the British Association of Counselling and Psychotherapy.&nbsp;</p><a class="btn btn-primary btn-lg me-2" role="button" href="/about/me/">About Gabriel</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="padding: 0;margin: 0;width: 552px;"><img class="rounded-circle img-fluid object-fit-contain w-100" style="min-height: 300px;" src="{% static image %}" loading="lazy"></div>
+            </div>
+        </div>
+    </div>
+    <section class="py-4 py-xl-5 bg-secondary">
+        <div class="container">
+            <div class="text-white bg-dark border rounded border-0 p-4 p-md-5">
+                <h4 class="fw-bold text-white mb-3">Thinking out of the box</h4>
+                <p class="mb-4"><span class="fs-4 fw-bold">CreaTherapy</span>&nbsp;is a new approach, that invites to make therapy creative from the theories we chose, allowing for higher coherence for client and therapist.</p>
+                <div class="fs-6 my-3"><a class="btn btn-light btn-lg" role="button" href="/articles/creatherapy/">Read Article</a></div>
+            </div>
+        </div>
+    </section>
+
 
 
 {% endblock content %}
 
-{% block action %}
-
-
-<div class="alert alert-primary display-5 mx-3 mt-3" role="alert">
-  Free first contact session. <a class="alert-link" href="/contact/"> Contact Me</a>
-</div>
-
-
-<script src="/static/js/index_cards.js"></script>
-
-{% endblock action %}

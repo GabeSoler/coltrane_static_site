@@ -35,9 +35,9 @@
 
 </head> <!-- end of head-->
 
-<body class="bg-light" hx-boost="true">
+<body class="bg-dark" hx-boost="true">
                         <!--Navbar starts-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark position-sticky" data-bs-theme="dark" id="navbar">
+    <nav class="navbar navbar-expand-md text-light bg-body bg-gradient py-3">
     <div class="container-fluid">
         <a class="navbar-brand text-primary" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
             Dr Gabriel Soler <span class="text-light" style="font-family:verdana,san-serif;">Psychotherapist</span> </a>
@@ -52,22 +52,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
               <li class="nav-item">
-                  <a class="nav-link {% if slug|last_url:-2 == "about" %}active{% endif %}" href="/about/me/">
+                  <a class="nav-link link-light {% if slug|last_url:-2 == "about" %}active{% endif %}" href="/about/me/">
                               About</a></li>
                 <li class="nav-item">
-                    <a class="nav-link {% if slug|last_url:-2 == "articles"  %}active{% endif %}" href="/articles/trauma/">
+                    <a class="nav-link link-light {% if slug|last_url:-2 == "articles"  %}active{% endif %}" href="/articles/trauma/">
                         Articles </a></li>                
                 <li class="nav-item">
-                    <a class="nav-link {% if slug|last_url:-2 == "areas"  %}active{% endif %}" href="/areas/creativity/">
-                        Areas</a></li>                
-                <li class="nav-item">
-                    <a class="nav-link {% if slug|last_url == "contact" %}active{% endif %}" href="/contact/">
-                                Contact</a></li>
+                    <a class="nav-link link-light {% if slug|last_url:-2 == "areas"  %}active{% endif %}" href="/areas/creativity/">
+                        Areas</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-
+                <a class="btn btn-primary" href="/contact/">Contact</a>
             </ul> 
 
              <!-- End of account related links -->
@@ -92,44 +89,29 @@
 {% endblock action%}
 
 </main>
-<footer>
+    <footer class="text-center bg-body" data-bs-theme="dark" style="width: 100%;">
+        <div class="container-fluid py-4 py-lg-5" style="width: 100%;margin: 0px;display: block;">
+            <section class="py-4 py-xl-5" style="height: 221px;">
+                <div class="container" style="border-color: var(--bs-danger-text-emphasis);">
+                    <div class="text-dark bg-light border rounded border-0 border-light d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5" style="background: linear-gradient(157deg, black 0%, var(--bs-body-bg) 0%, var(--bs-primary) 12%, rgb(193,162,68) 37%, var(--bs-blue) 83%, var(--bs-secondary-bg) 100%), var(--bs-red);height: 130px;border-color: rgba(255,255,255,0.15);">
+                        <div class="pb-2 pb-lg-1">
+                            <h2 class="fw-bold mb-2">Interested in a free first session?</h2>
+                            <p class="mb-0"></p>
+                        </div>
+                        <div class="my-2"><a class="btn btn-primary fs-5 px-4 py-2" role="button" href="#" style="background: var(--bs-gray-dark);">Book</a></div>
+                    </div>
+                </div>
+            </section>
+            <ul class="list-inline" style="padding: 2px;padding-right: 4px;">
+                <li class="list-inline-item me-4"><a class="link-body-emphasis" href="/contact/">Contact</a></li>
+                <li class="list-inline-item"><a class="link-body-emphasis" href="https://crea-therapy.com" style="margin-right: 1rem;">CreaTherapy</a></li>
+                <li class="list-inline-item"><a class="link-body-emphasis" href="https://gabesoler.github.io">GitHub</a></li>
+            </ul>
+            <p class="text-body mb-0">Copyright © 2025 Gabriel Soler</p>
+        </div>
+    </footer>
 
-        <nav class="navbar navbar-expand-md bg-secondary bottom-0">
-            <div class="container-fluid">
-              
-              {% comment %} <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                </span>
-                </button> {% endcomment %}
-                
-                <!-- <div class="collapse navbar-collapse" id="navbarCollapseBottom"> -->
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link fw-bold" {% if slug == "/" %} aria-current="page" {% endif %} href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="scrol-to-view" {% if slug == "/contact/" %} aria-current="page" {% endif %} href="/contact/">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" {% if slug == "/about/site/" %} aria-current="page" {% endif %} href="/about/site/">Site</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="scroll-to-view" {% if slug == "/about/pricing/" %} aria-current="page" {% endif %} href="/about/pricing/">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link d-none" rel="me" href="https://mastodonapp.uk/@gsoler">Mastodon</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
-                  By Gabriel Soler
-                </span>
-              </div>
-           <!-- </div> -->
-          </nav>
-
-</footer>
+    <script src="{% static 'js/bs-init.js' %}"></script>
 
         </body>
 </html>

@@ -1,23 +1,17 @@
-<div class="cover-container d-flex mx-auto flex-column mb-2"
-    style="
-    background-image:url({% static image %});
-    background-position:center;
-    background-size:cover;
-    height:90vh;
-    min-height:400px;
-    z-index:10;"
-    id="headshot">
-  
-    <main class="px-3 ms-4 my-auto text-primary">
-      <h1 id="landing-text">Making Therapy Creative</h1>
-      <p class="lead">
-        <a href="/contact/" class="btn btn-lg btn-secondary fw-bold border-primary bg-primary">Contact Me</a>
-      </p>
-    </main>
-  
-    <footer class="mt-auto text-white-50">
-      <p>Check out <a href="https://crea-therapy.com/">CreaTherapy</a></p>
-    </footer>
+ <section style="background: url({% static image %});">
+        <div data-bss-parallax-bg="true" style="height: 90vh;background: url({% static image %}) center / cover no-repeat, var(--bs-primary);min-height: 400px;">
+            <div class="container w-100 h-100">
+                <div class="row h-100">
+                    <div class="col-sm-7 col-lg-4 col-xl-6 offset-sm-0 text-center text-md-start d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center">
+                        <div style="max-width: 350px;">
+                            <h1 class="display-2 text-uppercase fw-bold pulse animated" style="color: var(--bs-primary);">Making therapy creative</h1>
+                            <p class="fs-2 text-success-emphasis my-3 bounce animated">Therapy can be a space of expression and creativity from our of deeper self</p><a class="btn btn-primary btn-lg me-2" role="button" href="/contact/">Book</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
   </div>
 
 
