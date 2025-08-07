@@ -48,7 +48,7 @@ I hope this tells you a bit about me. It may help to know that I still practice 
 
 Not long ago, I had the crazy idea of learning to code. This one has been the weirdest of the things I have tried because it feels far away from arts, psychology, and philosophy, which are my familiar topics. The more I delved into it, the more I saw it as a craft: putting pieces together, assembling, moving abstract concepts, and understanding the flows of information, the same things I do while doing arts, psychology, and philosophy. Learning to program has allowed me to develop this site and my other project, CreaTherapy, where I am crafting a new model to understand psychotherapy in a web app format.
 
-[CreaTherapy]('crea-therapy.com')
+[CreaTherapy](https://crea-therapy.com)
 
 Please keep exploring this site and its siblings.
 
